@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "599754471982",
-    "project_id": "arduinoinfosuite",
-    "storage_bucket": "arduinoinfosuite.appspot.com"
+    "project_number": "1032868221084",
+    "project_id": "fir-autenticacion-d99fa",
+    "storage_bucket": "fir-autenticacion-d99fa.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:599754471982:android:b2ba17776beeafe67bbdbf",
+        "mobilesdk_app_id": "1:1032868221084:android:228f31df49d3f14bdb9d59",
         "android_client_info": {
           "package_name": "com.codingstuff.loginandsignup"
         }
       },
       "oauth_client": [
         {
-          "client_id": "599754471982-30gkt7bupjnoksuhg8vdtnrkrvhl38op.apps.googleusercontent.com",
+          "client_id": "1032868221084-8nhed3u9ff9ormvb6h31len87fmfsp4b.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCwx04yJDGBrSoSzanecamt_SmuayU7esU"
+          "current_key": "AIzaSyAtooDtfvOcZ5Gso3WG9f62pVFjGZ6TR3Y"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "599754471982-30gkt7bupjnoksuhg8vdtnrkrvhl38op.apps.googleusercontent.com",
+              "client_id": "1032868221084-8nhed3u9ff9ormvb6h31len87fmfsp4b.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
