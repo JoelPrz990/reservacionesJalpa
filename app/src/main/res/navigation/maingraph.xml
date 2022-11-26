@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/maingraph">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/maingraph"
+    app:startDestination="@id/fragmentRecyclers">
 
+    <fragment
+        android:id="@+id/fragmentinicio"
+        android:name="com.jo.ArduinoInfoSuite.fragments.fragmentinicio"
+        android:label="fragment_fragmentinicio"
+        tools:layout="@layout/fragment_fragmentinicio" >
+        <action
+            android:id="@+id/action_fragmentinicio_to_fragmentRecyclers"
+            app:destination="@id/fragmentRecyclers" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentRecyclers"
+        android:name="com.jo.ArduinoInfoSuite.fragments.fragmentRecyclers"
+        android:label="fragment_recyclers"
+        tools:layout="@layout/fragment_recyclers" >
+        <action
+            android:id="@+id/action_fragmentRecyclers_to_fragmentinicio"
+            app:destination="@id/fragmentinicio" />
+    </fragment>
 </navigation>

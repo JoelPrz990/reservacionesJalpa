@@ -6,10 +6,20 @@
         <entry key="..\:/Users/sanat/Desktop/Android Studio Projects/Kotlin Project/Practice Project/LoginAndSignUp/app/src/main/res/layout/activity_main.xml" value="0.2484375" />
         <entry key="..\:/Users/sanat/Desktop/Android Studio Projects/Kotlin Project/Practice Project/LoginAndSignUp/app/src/main/res/layout/activity_sign_in.xml" value="0.2484375" />
         <entry key="..\:/Users/sanat/Desktop/Android Studio Projects/Kotlin Project/Practice Project/LoginAndSignUp/app/src/main/res/layout/activity_sign_up.xml" value="0.2484375" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.3375" />
+        <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.264" />
+        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.3375" />
+        <entry key="app/src/main/res/layout/boards_item.xml" value="0.11688311688311688" />
+        <entry key="app/src/main/res/layout/content_2.xml" value="0.3375" />
+        <entry key="app/src/main/res/layout/fragment_first.xml" value="0.3375" />
+        <entry key="app/src/main/res/layout/fragment_fragmentinicio.xml" value="0.3375" />
+        <entry key="app/src/main/res/layout/fragment_recycler.xml" value="0.3375" />
+        <entry key="app/src/main/res/layout/fragment_recyclers.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_second.xml" value="0.3375" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
