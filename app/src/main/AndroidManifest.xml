@@ -6,10 +6,11 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="Reservaciones Jalpa De Canovas"
+        android:label="Arduino Info Suite"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.LoginAndSignUp">
+        android:theme="@style/Theme.LoginAndSignUp"
+        tools:ignore="ExtraText">
         <activity
             android:name=".MainActivity"
             android:exported="false">
@@ -18,7 +19,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".activity"
+            android:name=".activity2"
             android:exported="false"
             android:label="@string/title_activity_2"
             android:theme="@style/Theme.LoginAndSignUp.NoActionBar"
@@ -38,7 +39,8 @@
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            tools:ignore="DuplicateActivity" />
+            tools:ignore="DuplicateActivity"></activity>
+            android:exported="true" />
     </application>
 
 </manifest>
