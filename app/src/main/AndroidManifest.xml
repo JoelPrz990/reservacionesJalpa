@@ -10,14 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LoginAndSignUp">
         <activity
-            android:name=".MainActivity2"
+            android:name=".MainActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".activity2"
+            android:name=".activity"
             android:exported="false"
             android:label="@string/title_activity_2"
             android:theme="@style/Theme.LoginAndSignUp.NoActionBar" />
