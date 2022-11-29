@@ -85,7 +85,7 @@
     <ImageView
         android:layout_width="150dp"
         android:layout_height="140dp"
-        android:src="@drawable/jalpa"
+        android:src="@drawable/Jardin"
         app:layout_constraintBottom_toTopOf="@+id/emailLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

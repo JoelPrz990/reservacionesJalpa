@@ -4,9 +4,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="Arduino Info Suite"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:icon="@mipmap/ic_jalpa_launcher"
+        android:label="Reservaciones Jalpa"
+        android:roundIcon="@mipmap/ic_jalpa_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LoginAndSignUp">
         <activity
