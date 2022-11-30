@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.jo.ArduinoInfoSuite.BD.NuevoProductoActivity">
+    tools:context="com.jo.ArduinoInfoSuite.NuevoProductoActivity">
 
     <EditText
         android:id="@+id/nombre_et"

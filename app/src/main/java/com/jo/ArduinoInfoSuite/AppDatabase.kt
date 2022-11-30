@@ -1,4 +1,4 @@
-package com.jo.ArduinoInfoSuite.BD
+package com.codingstuff.loginandsignup
 
 import android.content.Context
 import androidx.room.Database

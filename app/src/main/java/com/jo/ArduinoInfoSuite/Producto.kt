@@ -1,4 +1,4 @@
-package com.jo.ArduinoInfoSuite.BD
+package com.codingstuff.loginandsignup
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

@@ -6,9 +6,6 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.codingstuff.loginandsignup.databinding.ActivitySignInBinding
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.ktx.Firebase
-import com.jo.ArduinoInfoSuite.BD.MainActivityRegistro
-import com.jo.ArduinoInfoSuite.fragments.fragmentinicio
 
 class SignInActivity : AppCompatActivity() {
 
@@ -35,8 +32,7 @@ class SignInActivity : AppCompatActivity() {
 
                 firebaseAuth.signInWithEmailAndPassword(email, pass).addOnCompleteListener {
                     if (it.isSuccessful) {
-                        Toast.makeText(this, "Has Entrado Satisfactoriamente", Toast.LENGTH_SHORT).show()
-
+                        //Toast.makeText(this, "Hola", Toast.LENGTH_SHORT).show()
                         val intent = Intent(this, MainActivityRegistro::class.java)
                         startActivity(intent)
                     } else {

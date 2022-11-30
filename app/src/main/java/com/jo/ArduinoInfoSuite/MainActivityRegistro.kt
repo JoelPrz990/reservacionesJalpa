@@ -1,16 +1,18 @@
-package com.jo.ArduinoInfoSuite.BD
+package com.codingstuff.loginandsignup
+
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.lifecycle.Observer
 import com.codingstuff.loginandsignup.R
+import com.jo.ArduinoInfoSuite.*
 import kotlinx.android.synthetic.main.activity_main_registro.*
 
 class MainActivityRegistro : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_main_registro)
 
         var listaProductos = emptyList<Producto>()
 

@@ -1,4 +1,4 @@
-package com.jo.ArduinoInfoSuite.BD
+package com.codingstuff.loginandsignup
 
 import androidx.lifecycle.LiveData
 import androidx.room.*

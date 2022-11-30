@@ -1,8 +1,7 @@
-package com.jo.ArduinoInfoSuite.BD
+package com.codingstuff.loginandsignup
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.codingstuff.loginandsignup.R
 import kotlinx.android.synthetic.main.activity_nuevo_producto.*
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
