@@ -32,25 +32,31 @@ class NuevoProductoActivity : AppCompatActivity() {
             val descripcion = descripcion_et.text.toString()
             var producto = Producto(nombre, precio, descripcion, R.drawable.jalpa)
 
-            if (nombre=="Habitacion 1" || nombre=="habitacion 1"){
+            if (nombre=="Habitacion 1" || nombre=="habitacion 1" || nombre=="1"){
                 producto = Producto(nombre, precio, descripcion, R.drawable.habitacion1hacienda)
 
             }else{
-                if (nombre=="Habitacion 2" || nombre=="habitacion 2") {
+                if (nombre=="Habitacion 2" || nombre=="habitacion 2"|| nombre=="2") {
                     producto = Producto(nombre, precio, descripcion, R.drawable.habitacion2hacienda)
                 }else{
-                    if (nombre=="Habitacion 3" || nombre=="habitacion 3") {
+                    if (nombre=="Habitacion 3" || nombre=="habitacion 3"|| nombre=="3") {
                         producto = Producto(nombre, precio, descripcion, R.drawable.habitacion3hacienda)
                     }else{
-                        if (nombre=="Habitacion 4" || nombre=="habitacion 4") {
+                        if (nombre=="Habitacion 4" || nombre=="habitacion 4"|| nombre=="4") {
                             producto = Producto(nombre, precio, descripcion, R.drawable.habitacion4hacienda)
                         }else{
-                            if (nombre=="Habitacion 5" || nombre=="habitacion 6") {
-                                producto = Producto(nombre, precio, descripcion, R.drawable.habitacion2hacienda)
+                            if (nombre=="Habitacion 5" || nombre=="habitacion 5"|| nombre=="5") {
+                                producto = Producto(nombre, precio, descripcion, R.drawable.habitacion5hacienda)
                             }else{
-                                Toast.makeText(this, "No se ha encontrado una habitacion", Toast.LENGTH_LONG).show()
+                                if (nombre=="Habitacion 6" || nombre=="habitacion 6"|| nombre=="6") {
+                                    producto = Producto(nombre, precio, descripcion, R.drawable.habitacion6hacienda)
+                                }else{
+                                    if (nombre=="LuisLong" || nombre=="luislong"|| nombre=="Luislong") {
+                                        producto = Producto(nombre, precio, descripcion, R.drawable.casaluis)
+                                    }else{
+                                        Toast.makeText(this, "No se ha encontrado una habitacion", Toast.LENGTH_LONG).show()
 
-
+                                    }
                             }
 
 

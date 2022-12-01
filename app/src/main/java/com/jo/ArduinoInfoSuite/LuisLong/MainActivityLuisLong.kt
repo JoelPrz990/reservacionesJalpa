@@ -1,4 +1,4 @@
-package com.jo.ArduinoInfoSuite.LuisLong
+package com.codingstuff.loginandsignup
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.codingstuff.loginandsignup.R
 import com.jo.ArduinoInfoSuite.Adapters.LuisLongAdapter
+import com.jo.ArduinoInfoSuite.LuisLong.LuisLongProvider
 
 class MainActivityLuisLong : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
