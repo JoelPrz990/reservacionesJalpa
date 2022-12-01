@@ -10,7 +10,7 @@
         android:id="@+id/ivHacienda"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        tools:background="@drawable/hacienda"
+        android:background="@color/black"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"/>
 
@@ -18,8 +18,24 @@
         android:id="@+id/tvName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
         tools:text="Hola"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/ivHacienda"/>
+
+    <TextView
+        android:id="@+id/tvPrecio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Holt"
+        app:layout_constraintTop_toBottomOf="@id/tvName"
+        app:layout_constraintStart_toEndOf="@id/ivHacienda"/>
+
+    <TextView
+        android:id="@+id/tvDescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Hola"
+        app:layout_constraintTop_toBottomOf="@id/tvPrecio"
         app:layout_constraintStart_toEndOf="@id/ivHacienda"/>
 
 

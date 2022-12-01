@@ -8,10 +8,10 @@
 
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerViewHacienda"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"/>
-
-
+        android:id="@+id/recyclerHacienda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 </FrameLayout>
+
+
