@@ -6,6 +6,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.codingstuff.loginandsignup.databinding.ActivitySignInBinding
 import com.google.firebase.auth.FirebaseAuth
+import com.jo.ArduinoInfoSuite.MainActivityMenu
 
 class SignInActivity : AppCompatActivity() {
 

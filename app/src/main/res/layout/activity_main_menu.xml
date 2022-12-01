@@ -25,7 +25,7 @@
         android:layout_width="136dp"
         android:layout_height="148dp"
         android:layout_marginTop="164dp"
-        android:layout_marginEnd="52dp"
+        android:layout_marginEnd="40dp"
         android:contentDescription="Hacienda"
         android:foreground="@drawable/habitacion2"
         android:longClickable="false"
@@ -39,19 +39,45 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="52dp"
         android:text="Casa Luis Long"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/LuisLong"
-        tools:layout_editor_absoluteX="71dp"
         tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="72dp"
+        android:clickable="false"
+        android:text="Hacienda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Hacienda"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
-        android:text="Hacienda"
-        app:layout_constraintTop_toBottomOf="@+id/Hacienda"
-        tools:layout_editor_absoluteX="260dp"
-        tools:ignore="MissingConstraints" />
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="108dp"
+        android:text="HOTELES JALPA DE CANOVAS"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="56dp"
+        android:text="Reservar"
+        android:backgroundTint="@color/purple_500"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
