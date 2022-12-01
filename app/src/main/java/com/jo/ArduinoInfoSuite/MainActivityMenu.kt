@@ -42,10 +42,13 @@ class MainActivityMenu : AppCompatActivity() {
         var texto=view.contentDescription.toString()
         if (texto=="LuisLong"){
             Toast.makeText(this, "Luis Long", Toast.LENGTH_LONG).show()
-        }else{
-            Toast.makeText(this, "Hacienda", Toast.LENGTH_LONG).show()
-
+            val intent = Intent(this@MainActivityMenu, Hacienda::class.java)
+            startActivity(intent)
         }
+        if (texto=="Hacienda"){
+            Toast.makeText(this, "Luis Long", Toast.LENGTH_LONG).show()
+        }
+
 
     }
 
