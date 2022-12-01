@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.jo.ArduinoInfoSuite.ProductoActivity">
+    tools:context=".ProductoActivity">
 
     <TextView
         android:text="TextView"
@@ -22,7 +22,7 @@
         android:id="@+id/precio_producto"
         app:layout_constraintTop_toBottomOf="@+id/nombre_producto" app:layout_constraintStart_toStartOf="parent"
         android:layout_marginLeft="16dp" android:layout_marginStart="16dp" android:layout_marginTop="8dp"
-        android:textColor="@color/white"/>
+        android:textColor="@color/colorPrimary"/>
 
     <TextView
         android:text="Detalles"
@@ -40,6 +40,5 @@
         android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp" android:layout_marginTop="8dp"
         app:layout_constraintTop_toBottomOf="@+id/detalles_producto"/>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
