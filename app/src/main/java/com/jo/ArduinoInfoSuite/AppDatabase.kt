@@ -4,6 +4,8 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import com.jo.ArduinoInfoSuite.Producto
+import com.jo.ArduinoInfoSuite.ProductosDao
 
 @Database(entities = [Producto::class], version = 1)
 abstract class AppDatabase : RoomDatabase() {

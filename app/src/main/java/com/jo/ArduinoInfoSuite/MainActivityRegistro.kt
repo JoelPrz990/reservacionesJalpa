@@ -1,12 +1,11 @@
-package com.codingstuff.loginandsignup
+package com.jo.ArduinoInfoSuite
 
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.lifecycle.Observer
-import com.codingstuff.loginandsignup.R
-import com.jo.ArduinoInfoSuite.*
+import com.codingstuff.loginandsignup.*
 import kotlinx.android.synthetic.main.activity_main_registro.*
 
 class MainActivityRegistro : AppCompatActivity() {

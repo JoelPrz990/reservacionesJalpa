@@ -1,8 +1,9 @@
 
-package com.codingstuff.loginandsignup
+package com.jo.ArduinoInfoSuite
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.codingstuff.loginandsignup.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

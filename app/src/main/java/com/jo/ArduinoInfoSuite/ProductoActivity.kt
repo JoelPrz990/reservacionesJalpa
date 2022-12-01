@@ -1,4 +1,4 @@
-package com.codingstuff.loginandsignup
+package com.jo.ArduinoInfoSuite
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -7,6 +7,7 @@ import android.view.Menu
 import android.view.MenuItem
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer
+import com.codingstuff.loginandsignup.AppDatabase
 import com.codingstuff.loginandsignup.R
 import kotlinx.android.synthetic.main.activity_producto.*
 import kotlinx.coroutines.CoroutineScope
@@ -14,6 +15,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
 class ProductoActivity : AppCompatActivity() {
+
     private lateinit var database: AppDatabase
     private lateinit var producto: Producto
     private lateinit var productoLiveData: LiveData<Producto>
@@ -36,13 +38,14 @@ class ProductoActivity : AppCompatActivity() {
             detalles_producto.text = producto.descripcion
             imagen.setImageResource(producto.imagen)
         })
-
     }
+
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.producto_menu, menu)
 
         return super.onCreateOptionsMenu(menu)
     }
+
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             R.id.edit_item -> {
@@ -63,5 +66,4 @@ class ProductoActivity : AppCompatActivity() {
 
         return super.onOptionsItemSelected(item)
     }
-
 }

@@ -1,7 +1,9 @@
-package com.codingstuff.loginandsignup
+package com.jo.ArduinoInfoSuite
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.codingstuff.loginandsignup.AppDatabase
+import com.codingstuff.loginandsignup.R
 import kotlinx.android.synthetic.main.activity_nuevo_producto.*
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -11,6 +13,7 @@ class NuevoProductoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_nuevo_producto)
+
         var idProducto: Int? = null
 
         if (intent.hasExtra("producto")) {
@@ -31,10 +34,10 @@ class NuevoProductoActivity : AppCompatActivity() {
             var producto = Producto(nombre, precio, descripcion, R.drawable.jalpa)
 
             if (precio==2.0){
-                producto = Producto(nombre, precio, descripcion, R.drawable.habitacion2)
+                producto = Producto(nombre, precio, descripcion, R.drawable.habitacion3)
 
             }else{
-                producto = Producto(nombre, precio, descripcion, R.drawable.habitacion3)
+                producto = Producto(nombre, precio, descripcion, R.drawable.habitacion2)
             }
 
 

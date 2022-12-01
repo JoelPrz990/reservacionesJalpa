@@ -1,13 +1,11 @@
 package com.jo.ArduinoInfoSuite
 
-
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.Toast
-import com.codingstuff.loginandsignup.MainActivityRegistro
 import com.codingstuff.loginandsignup.R
 
 class MainActivityMenu : AppCompatActivity() {
@@ -16,16 +14,12 @@ class MainActivityMenu : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_menu)
 
-        val btnRegistro = findViewById<Button>(R.id.btnReservar) as Button
+        val btnRegistr = findViewById<Button>(R.id.btnReservar) as Button
 
-        btnRegistro.setOnClickListener {
-            val intent = Intent(this@MainActivityMenu,MainActivityRegistro::class.java)
+        btnRegistr.setOnClickListener {
+            val intent = Intent(this@MainActivityMenu, MainActivityRegistro::class.java)
             startActivity(intent)
         }
-
-
-
-
 
         /*btnHacienda = findViewById(R.id.Hacienda)
         btnLuisLong = findViewById(R.id.LuisLong)

@@ -17,21 +17,21 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".ProductoActivity"
+            android:name="com.jo.ArduinoInfoSuite.ProductoActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".NuevoProductoActivity"
+            android:name="com.jo.ArduinoInfoSuite.NuevoProductoActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".MainActivityRegistro"
+            android:name="com.jo.ArduinoInfoSuite.MainActivityRegistro"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -50,7 +50,7 @@
             android:label="@string/title_activity_2"
             android:theme="@style/Theme.LoginAndSignUp.NoActionBar" />
         <activity
-            android:name=".SignInActivity"
+            android:name="com.jo.ArduinoInfoSuite.SignInActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -59,10 +59,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SignUpActivity"
+            android:name="com.jo.ArduinoInfoSuite.SignUpActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.jo.ArduinoInfoSuite.MainActivity"
             android:exported="true" />
     </application>
 

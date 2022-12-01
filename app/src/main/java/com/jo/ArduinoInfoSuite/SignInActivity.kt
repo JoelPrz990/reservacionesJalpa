@@ -1,4 +1,4 @@
-package com.codingstuff.loginandsignup
+package com.jo.ArduinoInfoSuite
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,7 +6,6 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.codingstuff.loginandsignup.databinding.ActivitySignInBinding
 import com.google.firebase.auth.FirebaseAuth
-import com.jo.ArduinoInfoSuite.MainActivityMenu
 
 class SignInActivity : AppCompatActivity() {
 
