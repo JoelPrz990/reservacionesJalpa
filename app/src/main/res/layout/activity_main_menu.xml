@@ -13,7 +13,7 @@
         android:layout_marginStart="28dp"
         android:layout_marginTop="164dp"
         android:contentDescription="LuisLong"
-        android:foreground="@drawable/luisLong"
+        android:foreground="@drawable/luislong"
         android:onClick="Mostrar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
