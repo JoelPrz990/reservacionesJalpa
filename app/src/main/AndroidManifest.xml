@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LoginAndSignUp">
         <activity
-            android:name=".MainActivityMenu"
+            android:name="com.jo.ArduinoInfoSuite.MainActivityMenu"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"

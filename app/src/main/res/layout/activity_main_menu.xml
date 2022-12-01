@@ -7,24 +7,29 @@
     tools:context="com.jo.ArduinoInfoSuite.MainActivityMenu">
 
     <ImageButton
-        android:id="@+id/imageButton4"
+        android:id="@+id/LuisLong"
         android:layout_width="178dp"
         android:layout_height="147dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="164dp"
+        android:contentDescription="LuisLong"
         android:foreground="@drawable/habitacion"
+        android:onClick="Mostrar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/habitacion2"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
-        android:id="@+id/imageButton5"
+        android:id="@+id/Hacienda"
         android:layout_width="136dp"
         android:layout_height="148dp"
         android:layout_marginTop="164dp"
         android:layout_marginEnd="52dp"
+        android:contentDescription="Hacienda"
         android:foreground="@drawable/habitacion2"
+        android:longClickable="false"
+        android:onClick="Mostrar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/cocina"
@@ -36,7 +41,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
         android:text="Casa Luis Long"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton4"
+        app:layout_constraintTop_toBottomOf="@+id/LuisLong"
         tools:layout_editor_absoluteX="71dp"
         tools:ignore="MissingConstraints" />
 
@@ -46,7 +51,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
         android:text="Hacienda"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton5"
+        app:layout_constraintTop_toBottomOf="@+id/Hacienda"
         tools:layout_editor_absoluteX="260dp"
         tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
