@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.Toast
+import com.jo.ArduinoInfoSuite.LuisLong.MainActivityLuisLong
 
 class MainActivityMenu : AppCompatActivity() {
 
@@ -41,11 +42,13 @@ class MainActivityMenu : AppCompatActivity() {
         var texto=view.contentDescription.toString()
         if (texto=="LuisLong"){
             Toast.makeText(this, "Luis Long", Toast.LENGTH_LONG).show()
-            val intent = Intent(this@MainActivityMenu, MainActivityHacienda::class.java)
+            val intent = Intent(this@MainActivityMenu, MainActivityLuisLong::class.java)
             startActivity(intent)
         }
         if (texto=="Hacienda"){
             Toast.makeText(this, "Hacienda", Toast.LENGTH_LONG).show()
+            val intent = Intent(this@MainActivityMenu, MainActivityHacienda::class.java)
+            startActivity(intent)
         }
 
 
