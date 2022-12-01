@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <ImageView
+        android:id="@+id/ivHaciendaL"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvNameL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Hola"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/ivHaciendaL"/>
+
+    <TextView
+        android:id="@+id/tvPrecioL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Holt"
+        app:layout_constraintTop_toBottomOf="@id/tvNameL"
+        app:layout_constraintStart_toEndOf="@id/ivHaciendaL"/>
+
+    <TextView
+        android:id="@+id/tvDescripcionL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Hola"
+        app:layout_constraintTop_toBottomOf="@id/tvPrecioL"
+        app:layout_constraintStart_toEndOf="@id/ivHaciendaL"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

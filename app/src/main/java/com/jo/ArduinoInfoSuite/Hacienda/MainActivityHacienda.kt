@@ -20,6 +20,5 @@ class MainActivityHacienda : AppCompatActivity() {
         val recyclerView = findViewById<RecyclerView>(R.id.recyclerHacienda)
         recyclerView.layoutManager = LinearLayoutManager(this)
         recyclerView.adapter= HaciendaAdapter(HaciendaProvider.HaciendaList)
-
     }
 }
