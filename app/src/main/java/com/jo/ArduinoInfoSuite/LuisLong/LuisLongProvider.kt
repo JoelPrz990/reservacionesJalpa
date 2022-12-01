@@ -1,6 +1,5 @@
 package com.jo.ArduinoInfoSuite.LuisLong
 
-import com.jo.ArduinoInfoSuite.Hacienda.SuperHacienda
 
 class LuisLongProvider {
     companion object{
