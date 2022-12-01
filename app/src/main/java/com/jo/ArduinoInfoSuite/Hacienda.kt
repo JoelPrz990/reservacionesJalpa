@@ -27,7 +27,7 @@ class Hacienda : AppCompatActivity() {
     }
 
     private fun fetchData(){
-        FirebaseFirestore.getInstance().collection("Users")
+        FirebaseFirestore.getInstance().collection("users")
             .get()
             .addOnSuccessListener { documents ->
                 for (document in documents){
