@@ -4,45 +4,27 @@ package com.codingstuff.loginandsignup
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.codingstuff.loginandsignup.UserAdapter
+import androidx.recyclerview.widget.RecyclerView
 import com.codingstuff.loginandsignup.databinding.ActivityHaciendaBinding
 import com.google.firebase.firestore.FirebaseFirestore
-import com.jo.ArduinoInfoSuite.UserModel
+import com.jo.ArduinoInfoSuite.Adapters.HaciendaAdapter
+import com.jo.ArduinoInfoSuite.HaciendaProvider
+import com.jo.ArduinoInfoSuite.SuperHacienda
 import com.jo.ArduinoInfoSuite.showToast
 
 class Hacienda : AppCompatActivity() {
-    private lateinit var binding: ActivityHaciendaBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(binding.root)
+        setContentView(R.layout.activity_hacienda)
+    }
 
-        binding.mainRecyclerview.apply {
-            layoutManager = LinearLayoutManager(this@Hacienda)
-
-        }
-
-        fetchData()
+    private fun initRecyclerView(){
+        val recyclerView = findViewById<RecyclerView>(R.id.recyclerViewHacienda)
+        recyclerView.layoutManager = LinearLayoutManager(this)
+        recyclerView.adapter=HaciendaAdapter(HaciendaProvider.HaciendaList)
 
     }
 
-    private fun fetchData(){
-        FirebaseFirestore.getInstance().collection("users")
-            .get()
-            .addOnSuccessListener { documents ->
-                for (document in documents){
-                    val user = documents.toObjects(UserModel::class.java)
-                    binding.mainRecyclerview.adapter = UserAdapter(this,user)
 
-                }
-
-            }
-            .addOnFailureListener{
-                //Nosotros tendremos que realizar una impresion por si hay un error
-                showToast("Ha ocurrido un error: ${it.localizedMessage}")
-
-
-            }
-
-    }
 }
