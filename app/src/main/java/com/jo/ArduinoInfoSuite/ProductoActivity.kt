@@ -1,4 +1,4 @@
-package com.jo.ArduinoInfoSuite
+package com.codingstuff.loginandsignup
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -8,6 +8,8 @@ import android.view.MenuItem
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer
 import com.codingstuff.loginandsignup.AppDatabase
+import com.codingstuff.loginandsignup.NuevoProductoActivity
+import com.codingstuff.loginandsignup.Producto
 import com.codingstuff.loginandsignup.R
 import kotlinx.android.synthetic.main.activity_producto.*
 import kotlinx.coroutines.CoroutineScope

@@ -1,4 +1,4 @@
-package com.jo.ArduinoInfoSuite
+package com.codingstuff.loginandsignup
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.Toast
-import com.codingstuff.loginandsignup.R
+import com.jo.ArduinoInfoSuite.Hacienda
 
 class MainActivityMenu : AppCompatActivity() {
 

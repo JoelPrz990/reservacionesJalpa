@@ -1,4 +1,4 @@
-package com.codingstuff.loginandsignup
+package com.jo.ArduinoInfoSuite
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

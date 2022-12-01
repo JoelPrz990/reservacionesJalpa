@@ -3,10 +3,9 @@ package com.jo.ArduinoInfoSuite
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.codingstuff.loginandsignup.R
+import com.codingstuff.loginandsignup.UserAdapter
 import com.codingstuff.loginandsignup.databinding.ActivityHaciendaBinding
 import com.google.firebase.firestore.FirebaseFirestore
-import com.google.firebase.ktx.Firebase
 
 class Hacienda : AppCompatActivity() {
     private lateinit var binding: ActivityHaciendaBinding
@@ -25,7 +24,7 @@ class Hacienda : AppCompatActivity() {
     }
 
     private fun fetchData(){
-        FirebaseFirestore.getInstance().collection("users")
+        FirebaseFirestore.getInstance().collection("Users")
             .get()
             .addOnSuccessListener { documents ->
                 for (document in documents){

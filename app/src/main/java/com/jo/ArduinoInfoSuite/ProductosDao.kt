@@ -2,7 +2,7 @@ package com.jo.ArduinoInfoSuite
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
-import com.jo.ArduinoInfoSuite.Producto
+import com.codingstuff.loginandsignup.Producto
 
 @Dao
 interface ProductosDao {

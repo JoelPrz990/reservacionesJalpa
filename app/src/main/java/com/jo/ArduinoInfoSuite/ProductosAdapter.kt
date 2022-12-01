@@ -1,4 +1,4 @@
-package com.jo.ArduinoInfoSuite
+package com.codingstuff.loginandsignup
 
 import android.content.Context
 import android.view.LayoutInflater

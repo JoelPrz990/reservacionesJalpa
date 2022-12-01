@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LoginAndSignUp">
         <activity
-            android:name=".Hacienda"
+            android:name="com.jo.ArduinoInfoSuite.Hacienda"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -45,7 +45,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".MainActivity2"
+            android:name="com.jo.ArduinoInfoSuite.MainActivity2"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -69,7 +69,7 @@
             android:name=".SignUpActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.jo.ArduinoInfoSuite.MainActivity"
             android:exported="true" />
     </application>
 

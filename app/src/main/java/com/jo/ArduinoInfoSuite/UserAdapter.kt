@@ -1,4 +1,4 @@
-package com.jo.ArduinoInfoSuite
+package com.codingstuff.loginandsignup
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -9,6 +9,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.codingstuff.loginandsignup.R
+import com.jo.ArduinoInfoSuite.UserModel
 
 class UserAdapter(private val context: Context, private val users: List<UserModel>):RecyclerView.Adapter<UserViewHolder> (){
     override fun getItemCount(): Int {
