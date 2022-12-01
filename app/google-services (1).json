@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "241905894691",
+    "project_id": "imagenes-f9a73",
+    "storage_bucket": "imagenes-f9a73.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241905894691:android:580f3df46bd431a25eb896",
+        "android_client_info": {
+          "package_name": "com.codingstuff.loginandsignup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "241905894691-g3ve9g9k7qg51kbrvt3nqr4jipunkhq2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_DKZ78y7p1tcUhmmc_Qsgra1IHGtQmXA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "241905894691-g3ve9g9k7qg51kbrvt3nqr4jipunkhq2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
