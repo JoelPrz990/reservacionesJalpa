@@ -6,7 +6,6 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.Toast
-import com.jo.ArduinoInfoSuite.Hacienda
 
 class MainActivityMenu : AppCompatActivity() {
 
@@ -46,7 +45,7 @@ class MainActivityMenu : AppCompatActivity() {
             startActivity(intent)
         }
         if (texto=="Hacienda"){
-            Toast.makeText(this, "Luis Long", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, "Hacienda", Toast.LENGTH_LONG).show()
         }
 
 

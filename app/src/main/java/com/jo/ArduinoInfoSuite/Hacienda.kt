@@ -1,4 +1,5 @@
-package com.jo.ArduinoInfoSuite
+package com.codingstuff.loginandsignup
+
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -6,6 +7,8 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.codingstuff.loginandsignup.UserAdapter
 import com.codingstuff.loginandsignup.databinding.ActivityHaciendaBinding
 import com.google.firebase.firestore.FirebaseFirestore
+import com.jo.ArduinoInfoSuite.UserModel
+import com.jo.ArduinoInfoSuite.showToast
 
 class Hacienda : AppCompatActivity() {
     private lateinit var binding: ActivityHaciendaBinding
