@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.Toast
+import com.jo.ArduinoInfoSuite.Hacienda.MainActivityHacienda
 import kotlinx.android.synthetic.main.activity_main_menu.*
 
 class MainActivityMenu : AppCompatActivity() {
@@ -42,7 +43,7 @@ class MainActivityMenu : AppCompatActivity() {
         var texto=view.contentDescription.toString()
         if (texto=="LuisLong"){
             Toast.makeText(this, "Luis Long", Toast.LENGTH_LONG).show()
-            val intent = Intent(this@MainActivityMenu, Hacienda::class.java)
+            val intent = Intent(this@MainActivityMenu, MainActivityHacienda::class.java)
             startActivity(intent)
         }
         if (texto=="Hacienda"){

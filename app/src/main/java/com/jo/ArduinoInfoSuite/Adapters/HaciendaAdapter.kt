@@ -4,7 +4,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.codingstuff.loginandsignup.R
-import com.jo.ArduinoInfoSuite.SuperHacienda
+import com.jo.ArduinoInfoSuite.Hacienda.SuperHacienda
 
 class HaciendaAdapter(private val HaciendaList:List<SuperHacienda>) :RecyclerView.Adapter<HaciendaViewHolder>(){
 

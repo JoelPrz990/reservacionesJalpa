@@ -6,7 +6,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.codingstuff.loginandsignup.R
-import com.jo.ArduinoInfoSuite.SuperHacienda
+import com.jo.ArduinoInfoSuite.Hacienda.SuperHacienda
 
 class HaciendaViewHolder(view: View):RecyclerView.ViewHolder(view) {
     val superHaciendaName = view.findViewById<TextView>(R.id.tvName)

@@ -1,4 +1,5 @@
-package com.jo.ArduinoInfoSuite
+package com.jo.ArduinoInfoSuite.Hacienda
+
 
 class HaciendaProvider {
     companion object{
