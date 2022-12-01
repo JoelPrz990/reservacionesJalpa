@@ -2,6 +2,7 @@ package com.codingstuff.loginandsignup
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_nuevo_producto.*
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -31,11 +32,34 @@ class NuevoProductoActivity : AppCompatActivity() {
             val descripcion = descripcion_et.text.toString()
             var producto = Producto(nombre, precio, descripcion, R.drawable.jalpa)
 
-            if (precio==2.0){
-                producto = Producto(nombre, precio, descripcion, R.drawable.habitacion3)
+            if (nombre=="Habitacion 1" || nombre=="habitacion 1"){
+                producto = Producto(nombre, precio, descripcion, R.drawable.habitacion1hacienda)
 
             }else{
-                producto = Producto(nombre, precio, descripcion, R.drawable.habitacion2)
+                if (nombre=="Habitacion 2" || nombre=="habitacion 2") {
+                    producto = Producto(nombre, precio, descripcion, R.drawable.habitacion2hacienda)
+                }else{
+                    if (nombre=="Habitacion 3" || nombre=="habitacion 3") {
+                        producto = Producto(nombre, precio, descripcion, R.drawable.habitacion3hacienda)
+                    }else{
+                        if (nombre=="Habitacion 4" || nombre=="habitacion 4") {
+                            producto = Producto(nombre, precio, descripcion, R.drawable.habitacion4hacienda)
+                        }else{
+                            if (nombre=="Habitacion 5" || nombre=="habitacion 6") {
+                                producto = Producto(nombre, precio, descripcion, R.drawable.habitacion2hacienda)
+                            }else{
+                                Toast.makeText(this, "No se ha encontrado una habitacion", Toast.LENGTH_LONG).show()
+
+
+                            }
+
+
+                        }
+
+
+                    }
+
+                }
             }
 
 

@@ -15,7 +15,7 @@ class ProductosAdapter(private val mContext: Context, private val listaProductos
         val producto = listaProductos[position]
 
         layout.nombre.text = producto.nombre
-        layout.precio.text = "$${producto.precio}"
+        layout.precio.text = "${producto.precio.toString()}"
         layout.imageView.setImageResource(producto.imagen)
 
         return layout

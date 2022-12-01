@@ -36,7 +36,7 @@ class ProductoActivity : AppCompatActivity() {
             producto = it
 
             nombre_producto.text = producto.nombre
-            precio_producto.text = "$${producto.precio}"
+            precio_producto.text = "${producto.precio.toString()}"
             detalles_producto.text = producto.descripcion
             imagen.setImageResource(producto.imagen)
         })
