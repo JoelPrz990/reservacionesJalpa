@@ -10,28 +10,35 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LoginAndSignUp">
         <activity
-            android:name="com.jo.ArduinoInfoSuite.MainActivityMenu"
+            android:name=".Hacienda"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name="com.jo.ArduinoInfoSuite.ProductoActivity"
+            android:name=".MainActivityMenu"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name="com.jo.ArduinoInfoSuite.NuevoProductoActivity"
+            android:name=".ProductoActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name="com.jo.ArduinoInfoSuite.MainActivityRegistro"
+            android:name=".NuevoProductoActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MainActivityRegistro"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -50,7 +57,7 @@
             android:label="@string/title_activity_2"
             android:theme="@style/Theme.LoginAndSignUp.NoActionBar" />
         <activity
-            android:name="com.jo.ArduinoInfoSuite.SignInActivity"
+            android:name=".SignInActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -59,10 +66,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.jo.ArduinoInfoSuite.SignUpActivity"
+            android:name=".SignUpActivity"
             android:exported="false" />
         <activity
-            android:name="com.jo.ArduinoInfoSuite.MainActivity"
+            android:name=".MainActivity"
             android:exported="true" />
     </application>
 
