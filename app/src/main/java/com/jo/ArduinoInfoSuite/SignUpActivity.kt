@@ -37,7 +37,7 @@ class SignUpActivity : AppCompatActivity() {
                             val intent = Intent(this, SignInActivity::class.java)
                             startActivity(intent)
                         } else {
-                            Toast.makeText(this, it.exception.toString(), Toast.LENGTH_SHORT).show()
+                            Toast.makeText(this, "Correo incorrecto", Toast.LENGTH_SHORT).show()
 
                         }
                     }

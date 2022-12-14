@@ -13,7 +13,6 @@ class MainActivityHacienda : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_hacienda)
         initRecyclerView()
-
     }
 
     private fun initRecyclerView(){
@@ -22,3 +21,4 @@ class MainActivityHacienda : AppCompatActivity() {
         recyclerView.adapter= HaciendaAdapter(HaciendaProvider.HaciendaList)
     }
 }
+

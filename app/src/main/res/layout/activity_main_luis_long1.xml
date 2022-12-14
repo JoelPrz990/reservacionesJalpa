@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/habitacion1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jo.ArduinoInfoSuite.LuisLong.MainActivityLuisLong1">
+
+
+    <ImageButton
+        android:id="@+id/LuisLong"
+        android:layout_width="190dp"
+        android:layout_height="188dp"
+        android:layout_marginTop="124dp"
+        android:contentDescription="LuisLong"
+        android:foreground="@drawable/jalpaluislong"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cocina"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+
+        android:layout_marginTop="48dp"
+        android:layout_marginRight="20sp"
+        android:clickable="false"
+        android:text="Bellísima casa en el centro histórico de Jalpa de Cánovas, Purisima del Rincón, Gto... Manteniendo su característica histórica de 1826 la Casa Luis Long fue remodelada y totalmente acondicionada para pasar unos días increíbles cuenta con 1 Master Suite y 2 habitaciones independientes que comparten un bello jardín interno, cuenta con todas los servicios, televisión en cada habitación además de una sala de tv con sala !!  Las habitaciones alternas cubran con baño cada uno fuera de la habitación ."
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LuisLong"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="CASA LUIS LONG"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

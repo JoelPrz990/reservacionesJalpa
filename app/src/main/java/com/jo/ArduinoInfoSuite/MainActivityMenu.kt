@@ -6,6 +6,8 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.Toast
+import androidx.fragment.app.Fragment
+import com.jo.ArduinoInfoSuite.Hacienda.FragmentHacienda
 
 class MainActivityMenu : AppCompatActivity() {
 
@@ -20,18 +22,6 @@ class MainActivityMenu : AppCompatActivity() {
             startActivity(intent)
         }
 
-        /*btnHacienda = findViewById(R.id.Hacienda)
-        btnLuisLong = findViewById(R.id.LuisLong)
-
-        btnHacienda!!.setOnClickListener {
-            Toast.makeText(this, "Hacienda", Toast.LENGTH_LONG).show()
-
-        }
-        btnLuisLong!!.setOnClickListener {
-            Toast.makeText(this, "Luis Long", Toast.LENGTH_LONG).show()
-
-
-        }*/
 
 
 
@@ -40,17 +30,23 @@ class MainActivityMenu : AppCompatActivity() {
     fun Mostrar(view: View){
         var texto=view.contentDescription.toString()
         if (texto=="LuisLong"){
-            Toast.makeText(this, "Luis Long", Toast.LENGTH_LONG).show()
-            val intent = Intent(this@MainActivityMenu, MainActivityLuisLong::class.java)
+            val intent = Intent(this@MainActivityMenu, MainActivityLuisLong1::class.java)
             startActivity(intent)
         }
         if (texto=="Hacienda"){
-            Toast.makeText(this, "Hacienda", Toast.LENGTH_LONG).show()
-            val intent = Intent(this@MainActivityMenu, MainActivityHacienda::class.java)
+            val intent = Intent(this@MainActivityMenu, MainActivityHacienda1::class.java)
             startActivity(intent)
+
         }
 
 
     }
+
+    /*private fun loadFragment(fragment: Fragment){
+        val fragmentManager = supportFragmentManager
+        val fragmentTransaction = fragmentManager.beginTransaction()
+        fragmentTransaction.replace(R.id.fragmentinicio, fragment)
+        fragmentTransaction.commit()
+    }*/
 
 }

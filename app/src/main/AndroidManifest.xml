@@ -13,6 +13,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LoginAndSignUp">
         <activity
+            android:name=".MainActivityLuisLong1"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MainActivityHacienda1"
+            android:exported="false"
+            android:label="@string/title_activity_main_hacienda1"
+            android:theme="@style/Theme.LoginAndSignUp.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".MainActivityLuisLong"
             android:exported="false">
             <meta-data

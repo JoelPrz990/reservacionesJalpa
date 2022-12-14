@@ -34,11 +34,12 @@ class ProductoActivity : AppCompatActivity() {
 
         productoLiveData.observe(this, Observer {
             producto = it
-
-            nombre_producto.text = producto.nombre
-            precio_producto.text = "${producto.precio.toString()}"
-            detalles_producto.text = producto.descripcion
+            nombre_producto.text = "LuisLong/Habitacion: ${producto.nombre}"
+            precio_producto.text = "Personas: ${producto.precio}"
+            detalles_producto.text = "Nombre: ${producto.descripcion}"
+            fechas.text = "Fecha: ${producto.fecha}"
             imagen.setImageResource(producto.imagen)
+
         })
     }
 
@@ -58,7 +59,6 @@ class ProductoActivity : AppCompatActivity() {
 
             R.id.delete_item -> {
                 productoLiveData.removeObservers(this)
-
                 CoroutineScope(Dispatchers.IO).launch {
                     database.productos().delete(producto)
                     this@ProductoActivity.finish()

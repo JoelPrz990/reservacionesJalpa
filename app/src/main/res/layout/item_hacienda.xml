@@ -16,28 +16,35 @@
 
     <TextView
         android:id="@+id/tvName"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:text="Hola"
+        android:layout_marginLeft="150dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="15sp"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toEndOf="@id/ivHacienda"/>
+        tools:text="Primera Linea" />
 
     <TextView
         android:id="@+id/tvPrecio"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:text="Holt"
+        android:layout_marginLeft="150dp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ivHacienda"
         app:layout_constraintTop_toBottomOf="@id/tvName"
-        app:layout_constraintStart_toEndOf="@id/ivHacienda"/>
+        tools:text="Segunda Linea" />
 
     <TextView
         android:id="@+id/tvDescripcion"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:text="Hola"
+        android:layout_marginLeft="150dp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ivHacienda"
         app:layout_constraintTop_toBottomOf="@id/tvPrecio"
-        app:layout_constraintStart_toEndOf="@id/ivHacienda"/>
-
-
+        tools:text="Tercer Linea" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

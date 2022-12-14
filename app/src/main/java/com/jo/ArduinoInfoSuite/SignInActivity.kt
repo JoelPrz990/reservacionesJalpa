@@ -37,7 +37,7 @@ class SignInActivity : AppCompatActivity() {
                         //val intent = Intent(this, MainActivityRegistro::class.java)
                         startActivity(intent)
                     } else {
-                        Toast.makeText(this, it.exception.toString(), Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this, "Error", Toast.LENGTH_SHORT).show()
 
                     }
                 }
